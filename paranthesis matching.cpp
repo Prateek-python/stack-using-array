@@ -89,7 +89,7 @@ int matching(char *exp)
 }
 int main()
 {
- char *exp="{{[]}}";
+ char *exp="{{[]{[]}}";
  if(matching(exp)==1)
  {
      printf("balaced parantheses\n");
