@@ -63,6 +63,8 @@ int main()
     push(sp, 50);
     push(sp,60);
     push(sp,77);
+    push(sp,90);
+    pop(sp);
   
     return 0;
 }
